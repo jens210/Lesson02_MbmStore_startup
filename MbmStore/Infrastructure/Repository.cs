@@ -15,7 +15,7 @@ namespace MbmStore.Infrastructure
         {
             Book book = new Book("Guy", "Book1", 220.5m, 2000, "Some company", "01322240", "https://rta.org.af/eng/wp-content/uploads/2016/02/book.png");
             Book book2 = new Book("Guy2", "Book2", 222.5m, 2002, "Some other company", "21322240", "https://vectorsfree.files.wordpress.com/2012/02/thick-book.jpg");
-
+             
             MusicCD cd = new MusicCD("Christian Löffler", "Mare", 3.5m, 2016, "https://img.discogs.com/N0Nzh3PCaPnHvDD66y8ZOJmcYh8=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-9199362-1476532535-7378.jpeg.jpg");
             MusicCD cd2 = new MusicCD("Deadmau5", "4x4=12", 4.5m, 2010, "https://imagescdn.junodownload.com/150/CS2759107-02A.jpg");
             Track track1 = new Track("Myiami", "Christian Löffler", new TimeSpan(0, 4, 38));
