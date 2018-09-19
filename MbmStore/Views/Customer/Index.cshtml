@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "Customer";
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<h2>Customer</h2>
+<ul>
+    <li>
+        @ViewBag.customer1.firstnavn @ViewBag.customer1.lastnavn is @ViewBag.customer1.Age years @ViewBag.customer1.address
+        @ViewBag.customer1.zip @ViewBag.customer1.city @string.Join(" , ", ViewBag.customer1.PhoneNumbers)
+    <li>
+        @ViewBag.customer2.firstnavn @ViewBag.customer2.lastnavn is @ViewBag.customer2.Age years @ViewBag.customer2.address
+        @ViewBag.customer2.zip @ViewBag.customer2.city @string.Join(" , ", ViewBag.customer2.PhoneNumbers)
+    <li>
+        @ViewBag.customer3.firstnavn @ViewBag.customer3.lastnavn is @ViewBag.customer3.Age years @ViewBag.customer3.address
+        @ViewBag.customer3.zip @ViewBag.customer3.city @string.Join(" , ", ViewBag.customer3.PhoneNumbers)´W
+</ul>
