@@ -1,0 +1,44 @@
+C:\Users\jear\Dropbox\Eaaa-it\2018e\backend\projects\Exercises\Lesson02_MbmStore_startup\MbmStore\bin\Debug\netcoreapp2.0\MbmStore.deps.json
+C:\Users\jear\Dropbox\Eaaa-it\2018e\backend\projects\Exercises\Lesson02_MbmStore_startup\MbmStore\bin\Debug\netcoreapp2.0\MbmStore.runtimeconfig.json
+C:\Users\jear\Dropbox\Eaaa-it\2018e\backend\projects\Exercises\Lesson02_MbmStore_startup\MbmStore\bin\Debug\netcoreapp2.0\MbmStore.runtimeconfig.dev.json
+C:\Users\jear\Dropbox\Eaaa-it\2018e\backend\projects\Exercises\Lesson02_MbmStore_startup\MbmStore\bin\Debug\netcoreapp2.0\MbmStore.dll
+C:\Users\jear\Dropbox\Eaaa-it\2018e\backend\projects\Exercises\Lesson02_MbmStore_startup\MbmStore\obj\Debug\netcoreapp2.0\MbmStore.csprojAssemblyReference.cache
+C:\Users\jear\Dropbox\Eaaa-it\2018e\backend\projects\Exercises\Lesson02_MbmStore_startup\MbmStore\obj\Debug\netcoreapp2.0\MbmStore.csproj.CoreCompileInputs.cache
+C:\Users\jear\Dropbox\Eaaa-it\2018e\backend\projects\Exercises\Lesson02_MbmStore_startup\MbmStore\obj\Debug\netcoreapp2.0\MbmStore.AssemblyInfoInputs.cache
+C:\Users\jear\Dropbox\Eaaa-it\2018e\backend\projects\Exercises\Lesson02_MbmStore_startup\MbmStore\obj\Debug\netcoreapp2.0\MbmStore.AssemblyInfo.cs
+C:\Users\jear\Dropbox\Eaaa-it\2018e\backend\projects\Exercises\Lesson02_MbmStore_startup\MbmStore\bin\Debug\netcoreapp2.0\MbmStore.pdb
+C:\Users\jear\Dropbox\Eaaa-it\2018e\backend\projects\Exercises\Lesson02_MbmStore_startup\MbmStore\obj\Debug\netcoreapp2.0\MbmStore.dll
+C:\Users\jear\Dropbox\Eaaa-it\2018e\backend\projects\Exercises\Lesson02_MbmStore_startup\MbmStore\obj\Debug\netcoreapp2.0\MbmStore.pdb
+C:\Users\jear\Dropbox\Eaaa-it\2018e\backend\projects\Exercises_offline\Lesson02_MbmStore_startup\MbmStore\bin\Debug\netcoreapp2.0\MbmStore.deps.json
+C:\Users\jear\Dropbox\Eaaa-it\2018e\backend\projects\Exercises_offline\Lesson02_MbmStore_startup\MbmStore\bin\Debug\netcoreapp2.0\MbmStore.runtimeconfig.json
+C:\Users\jear\Dropbox\Eaaa-it\2018e\backend\projects\Exercises_offline\Lesson02_MbmStore_startup\MbmStore\bin\Debug\netcoreapp2.0\MbmStore.runtimeconfig.dev.json
+C:\Users\jear\Dropbox\Eaaa-it\2018e\backend\projects\Exercises_offline\Lesson02_MbmStore_startup\MbmStore\bin\Debug\netcoreapp2.0\MbmStore.dll
+C:\Users\jear\Dropbox\Eaaa-it\2018e\backend\projects\Exercises_offline\Lesson02_MbmStore_startup\MbmStore\bin\Debug\netcoreapp2.0\MbmStore.pdb
+C:\Users\jear\Dropbox\Eaaa-it\2018e\backend\projects\Exercises_offline\Lesson02_MbmStore_startup\MbmStore\obj\Debug\netcoreapp2.0\MbmStore.csprojAssemblyReference.cache
+C:\Users\jear\Dropbox\Eaaa-it\2018e\backend\projects\Exercises_offline\Lesson02_MbmStore_startup\MbmStore\obj\Debug\netcoreapp2.0\MbmStore.csproj.CoreCompileInputs.cache
+C:\Users\jear\Dropbox\Eaaa-it\2018e\backend\projects\Exercises_offline\Lesson02_MbmStore_startup\MbmStore\obj\Debug\netcoreapp2.0\MbmStore.AssemblyInfoInputs.cache
+C:\Users\jear\Dropbox\Eaaa-it\2018e\backend\projects\Exercises_offline\Lesson02_MbmStore_startup\MbmStore\obj\Debug\netcoreapp2.0\MbmStore.AssemblyInfo.cs
+C:\Users\jear\Dropbox\Eaaa-it\2018e\backend\projects\Exercises_offline\Lesson02_MbmStore_startup\MbmStore\obj\Debug\netcoreapp2.0\MbmStore.dll
+C:\Users\jear\Dropbox\Eaaa-it\2018e\backend\projects\Exercises_offline\Lesson02_MbmStore_startup\MbmStore\obj\Debug\netcoreapp2.0\MbmStore.pdb
+C:\Users\Jens\Downloads\L02_MbmStore_startup\Lesson02_MbmStore_startup\MbmStore\bin\Debug\netcoreapp2.0\MbmStore.deps.json
+C:\Users\Jens\Downloads\L02_MbmStore_startup\Lesson02_MbmStore_startup\MbmStore\bin\Debug\netcoreapp2.0\MbmStore.runtimeconfig.json
+C:\Users\Jens\Downloads\L02_MbmStore_startup\Lesson02_MbmStore_startup\MbmStore\bin\Debug\netcoreapp2.0\MbmStore.runtimeconfig.dev.json
+C:\Users\Jens\Downloads\L02_MbmStore_startup\Lesson02_MbmStore_startup\MbmStore\bin\Debug\netcoreapp2.0\MbmStore.dll
+C:\Users\Jens\Downloads\L02_MbmStore_startup\Lesson02_MbmStore_startup\MbmStore\bin\Debug\netcoreapp2.0\MbmStore.pdb
+C:\Users\Jens\Downloads\L02_MbmStore_startup\Lesson02_MbmStore_startup\MbmStore\obj\Debug\netcoreapp2.0\MbmStore.csprojAssemblyReference.cache
+C:\Users\Jens\Downloads\L02_MbmStore_startup\Lesson02_MbmStore_startup\MbmStore\obj\Debug\netcoreapp2.0\MbmStore.csproj.CoreCompileInputs.cache
+C:\Users\Jens\Downloads\L02_MbmStore_startup\Lesson02_MbmStore_startup\MbmStore\obj\Debug\netcoreapp2.0\MbmStore.AssemblyInfoInputs.cache
+C:\Users\Jens\Downloads\L02_MbmStore_startup\Lesson02_MbmStore_startup\MbmStore\obj\Debug\netcoreapp2.0\MbmStore.AssemblyInfo.cs
+C:\Users\Jens\Downloads\L02_MbmStore_startup\Lesson02_MbmStore_startup\MbmStore\obj\Debug\netcoreapp2.0\MbmStore.dll
+C:\Users\Jens\Downloads\L02_MbmStore_startup\Lesson02_MbmStore_startup\MbmStore\obj\Debug\netcoreapp2.0\MbmStore.pdb
+C:\Users\Jens\Documents\Visual Studio 2017\Backup Files\Lesson02_MbmStore_startup\MbmStore\bin\Debug\netcoreapp2.0\MbmStore.deps.json
+C:\Users\Jens\Documents\Visual Studio 2017\Backup Files\Lesson02_MbmStore_startup\MbmStore\bin\Debug\netcoreapp2.0\MbmStore.runtimeconfig.json
+C:\Users\Jens\Documents\Visual Studio 2017\Backup Files\Lesson02_MbmStore_startup\MbmStore\bin\Debug\netcoreapp2.0\MbmStore.runtimeconfig.dev.json
+C:\Users\Jens\Documents\Visual Studio 2017\Backup Files\Lesson02_MbmStore_startup\MbmStore\bin\Debug\netcoreapp2.0\MbmStore.dll
+C:\Users\Jens\Documents\Visual Studio 2017\Backup Files\Lesson02_MbmStore_startup\MbmStore\bin\Debug\netcoreapp2.0\MbmStore.pdb
+C:\Users\Jens\Documents\Visual Studio 2017\Backup Files\Lesson02_MbmStore_startup\MbmStore\obj\Debug\netcoreapp2.0\MbmStore.csprojAssemblyReference.cache
+C:\Users\Jens\Documents\Visual Studio 2017\Backup Files\Lesson02_MbmStore_startup\MbmStore\obj\Debug\netcoreapp2.0\MbmStore.csproj.CoreCompileInputs.cache
+C:\Users\Jens\Documents\Visual Studio 2017\Backup Files\Lesson02_MbmStore_startup\MbmStore\obj\Debug\netcoreapp2.0\MbmStore.AssemblyInfoInputs.cache
+C:\Users\Jens\Documents\Visual Studio 2017\Backup Files\Lesson02_MbmStore_startup\MbmStore\obj\Debug\netcoreapp2.0\MbmStore.AssemblyInfo.cs
+C:\Users\Jens\Documents\Visual Studio 2017\Backup Files\Lesson02_MbmStore_startup\MbmStore\obj\Debug\netcoreapp2.0\MbmStore.dll
+C:\Users\Jens\Documents\Visual Studio 2017\Backup Files\Lesson02_MbmStore_startup\MbmStore\obj\Debug\netcoreapp2.0\MbmStore.pdb
