@@ -1,9 +1,19 @@
 ﻿@addTagHelper "*, Microsoft.AspNetCore.Mvc.TagHelpers"
-
-<h2>Index</h2>
-
+@{
+    ViewData["Title"] = "MbmStore";
+}
+<h2>MbmStore</h2>
 <ul>
     <li>
-        <a asp-controller="Movie" asp-action="Index">Movies</a>
+        <a asp-controller="Catalogue" asp-action="Index">Catalogue</a>
+    </li>
+    <li>
+        <a asp-controller="Invoice" asp-action="Index">Invoice</a>
+    </li>
+    <li>
+        <a asp-controller="Customer" asp-action="Index">Customer</a>
+    </li>
+    <li>
+        <a asp-controller="Movie" asp-action="Index">Movie</a>
     </li>
 </ul>
