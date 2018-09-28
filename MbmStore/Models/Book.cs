@@ -20,13 +20,13 @@ namespace MbmStore.Models
 
         public Book(string author, string title, decimal price, short published, string publisher, string isbn, string imageURL)
         {
-            this.Author = author;
-            this.Title = title;
-            this.Price = price;
-            this.Published = published;
-            this.Publisher = publisher;
-            this.ISBN = isbn;
-            this.ImageURL = imageURL;
+            Author = author;
+            Title = title;
+            Price = price;
+            Published = published;
+            Publisher = publisher;
+            ISBN = isbn;
+            ImageURL = imageURL;
         }
     }
 }

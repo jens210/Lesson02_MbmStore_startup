@@ -64,3 +64,14 @@ C:\Users\Jens\Documents\GitHub\Lesson02_MbmStore_startup\MbmStore\obj\Debug\netc
 C:\Users\Jens\Documents\GitHub\Lesson02_MbmStore_startup\MbmStore\obj\Debug\netcoreapp2.0\MbmStore.AssemblyInfo.cs
 C:\Users\Jens\Documents\GitHub\Lesson02_MbmStore_startup\MbmStore\obj\Debug\netcoreapp2.0\MbmStore.dll
 C:\Users\Jens\Documents\GitHub\Lesson02_MbmStore_startup\MbmStore\obj\Debug\netcoreapp2.0\MbmStore.pdb
+C:\Users\Jens\Source\Repos\Lesson02_MbmStore_startup\MbmStore\obj\Debug\netcoreapp2.0\MbmStore.dll
+C:\Users\Jens\Source\Repos\Lesson02_MbmStore_startup\MbmStore\obj\Debug\netcoreapp2.0\MbmStore.pdb
+C:\Users\Jens\source\repos\Lesson02_MbmStore_startup\MbmStore\bin\Debug\netcoreapp2.0\MbmStore.deps.json
+C:\Users\Jens\source\repos\Lesson02_MbmStore_startup\MbmStore\bin\Debug\netcoreapp2.0\MbmStore.runtimeconfig.json
+C:\Users\Jens\source\repos\Lesson02_MbmStore_startup\MbmStore\bin\Debug\netcoreapp2.0\MbmStore.runtimeconfig.dev.json
+C:\Users\Jens\source\repos\Lesson02_MbmStore_startup\MbmStore\bin\Debug\netcoreapp2.0\MbmStore.dll
+C:\Users\Jens\source\repos\Lesson02_MbmStore_startup\MbmStore\bin\Debug\netcoreapp2.0\MbmStore.pdb
+C:\Users\Jens\source\repos\Lesson02_MbmStore_startup\MbmStore\obj\Debug\netcoreapp2.0\MbmStore.csprojAssemblyReference.cache
+C:\Users\Jens\source\repos\Lesson02_MbmStore_startup\MbmStore\obj\Debug\netcoreapp2.0\MbmStore.csproj.CoreCompileInputs.cache
+C:\Users\Jens\source\repos\Lesson02_MbmStore_startup\MbmStore\obj\Debug\netcoreapp2.0\MbmStore.AssemblyInfoInputs.cache
+C:\Users\Jens\source\repos\Lesson02_MbmStore_startup\MbmStore\obj\Debug\netcoreapp2.0\MbmStore.AssemblyInfo.cs

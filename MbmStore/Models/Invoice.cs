@@ -20,9 +20,9 @@ namespace MbmStore.Models
 
         public Invoice(int invoiceid, DateTime orderDate, Customer customer)
         {
-            this.Invoiceid = invoiceid;
-            this.OrderDate = orderDate;
-            this.Customer = customer;
+            Invoiceid = invoiceid;
+            OrderDate = orderDate;
+            Customer = customer;
         }
     }
 }

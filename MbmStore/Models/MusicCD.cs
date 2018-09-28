@@ -19,11 +19,11 @@ namespace MbmStore.Models
 
         public MusicCD(string artist, string title, decimal price, short released, string imageURL)
         {
-            this.Artist = artist;
-            this.Title = title;
-            this.Price = price;
-            this.Released = released;
-            this.ImageURL = imageURL;
+            Artist = artist;
+            Title = title;
+            Price = price;
+            Released = released;
+            ImageURL = imageURL;
         }
 
         public void AddTrack(Track track)

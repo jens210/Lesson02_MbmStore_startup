@@ -12,9 +12,9 @@ namespace MbmStore.Controllers
     {
         public IActionResult Index()
         {
-            Customer customer1 = new Customer("Lars", "Larsen", "Vestergade 2", "8600", "Silkeborg",  new DateTime(1990, 2, 2));
-            Customer customer2 = new Customer("Karl", "Karlsen", "Vestergade 3", "8600", "Silkeborg", new DateTime(1992, 12, 2));
-            Customer customer3 = new Customer("Hans", "Hansen", "Vestergade 4", "8600", "Silkeborg",  new DateTime(1999, 12, 2));
+            Customer customer1 = new Customer("Lars", "Larsen", "Vestergade 2", "8600", "Silkeborg",  new DateTime(1990, 2, 2), 1);
+            Customer customer2 = new Customer("Karl", "Karlsen", "Vestergade 3", "8600", "Silkeborg", new DateTime(1992, 12, 2), 2);
+            Customer customer3 = new Customer("Hans", "Hansen", "Vestergade 4", "8600", "Silkeborg",  new DateTime(1999, 12, 2), 3);
 
             customer1.PhoneNumbers.Add("12 44 33 22");
             customer1.PhoneNumbers.Add("12 12 23 22");

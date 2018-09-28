@@ -18,9 +18,9 @@ namespace MbmStore.Models
 
         public Track(string title, string composer, TimeSpan length)
         {
-            this.Title = title;
-            this.Composer = composer;
-            this.Length = length;
+            Title = title;
+            Composer = composer;
+            Length = length;
         }
 
     }

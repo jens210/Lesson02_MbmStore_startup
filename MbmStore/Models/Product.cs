@@ -18,9 +18,9 @@ namespace MbmStore.Models
 
         public Product(string title, decimal price, string imageURL)
         {
-            this.Title = title;
-            this.Price = price;
-            this.ImageURL = imageURL;
+            Title = title;
+            Price = price;
+            ImageURL = imageURL;
         }
     }
 }

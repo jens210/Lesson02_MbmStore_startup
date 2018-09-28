@@ -15,8 +15,8 @@ namespace MbmStore.Models
 
         public OrderItem(Product product, int quantity)
         {
-            this.Product = product;
-            this.Quantity = quantity;
+            Product = product;
+            Quantity = quantity;
         }
     }
 }

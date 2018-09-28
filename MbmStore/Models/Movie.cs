@@ -33,17 +33,18 @@ namespace MbmStore.Models
         }
 
         // constructors
-        public Movie()
+        public Movie(string title, decimal price)
         {
-
+            Title = title;
+            Price = price;
         }
 
-        public Movie(string title, decimal price, string imageUrl, string director)
+        // Nedarver title, price og imageUrl fra base klassen "Product".
+        public Movie(string title, decimal price, string imageUrl, string director) : base (title, price, imageUrl)
         {
-            this.Title = title;
-            this.Price = price;
-            this.ImageURL = imageUrl;
             this.director = director;
+            Title = title;
+            Price = price;
         }
     }
 }

@@ -1,5 +1,4 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "Catalogue";
 }
 
@@ -9,42 +8,46 @@
 <h2>Catalogue</h2>
 
 <h3>Music</h3>
-<p>
-    @foreach (var cd in ViewBag.CDS)
-    {
-        <img src="@cd.ImageURL" alt="CD" />
-        <br />
-        <strong>Title</strong>
-        @cd.Title
-        <br />
-        <strong>Artist:</strong>
-        @cd.Artist
-        <br />
-        <strong>Price:</strong>
-        @cd.Price
-        <br />
-        <strong> Tracks: </strong>
-        <ol>
-            @foreach (Track track in cd.Tracks)
-            {
-                <li>
-                    @track.Title
-                    (@track.Composer)
-                    @track.Length.Minutes:@track.Length.Seconds
-                </li>
-            }
-        </ol>
-        <strong>Total playing time</strong>
-        @cd.GetPlayingTime()
-        <br />
-    }
+<div>
+    <ol>
+        @foreach (var cd in ViewBag.CDS)
+        {
+            <li>
+                <img src="@cd.ImageURL" alt="CD" />
+                <br />
+                <strong>Title</strong>
+                @cd.Title
+                <br />
+                <strong>Artist:</strong>
+                @cd.Artist
+                <br />
+                <strong>Price:</strong>
+                @cd.Price
+                <br />
+                <strong> Tracks: </strong>
+                <ol>
+                    @foreach (Track track in cd.Tracks)
+                    {
+                        <li>
+                            @track.Title
+                            (@track.Composer)
+                            @track.Length.Minutes:@track.Length.Seconds
+                        </li>
+                    }
+                </ol>
+                <strong>Total playing time</strong>
+                @cd.GetPlayingTime()
+                <br />
+            </li>
+        }
+    </ol>
 
     <h3>Movies</h3>
     <ol>
         @foreach (Movie movie in ViewBag.Movies)
         {
             <li>
-                <img src="Images/@movie.ImageURL" alt="Movie" />
+                <img src="@movie.ImageURL" alt="Movie" />
                 <br />
                 <strong>Title:</strong>
                 @movie.Title
@@ -59,28 +62,31 @@
     </ol>
     <h3>Books</h3>
     <ol>
-    @foreach (Book book in ViewBag.Books)
-    {
-    <li>
-        <img src="@book.ImageURL" alt="Book" />
-        <br />
-        <strong>Title:</strong>
-        @book.Title
-        <br />
-        <strong>Author:</strong>
-        @book.Author
-        <br />
-        <strong>Published</strong>
-        @book.Published
-        <br />
-        <strong>ISBN</strong>
-        @book.ISBN
-        <br />
-        <strong>Price:</strong>
-        @book.Price
-    </li>
-    }
+        @foreach (Book book in ViewBag.Books)
+        {
+            <li>
+                <img src="@book.ImageURL" alt="Book" />
+                <br />
+                <strong>Title:</strong>
+                @book.Title
+                <br />
+                <strong>Author:</strong>
+                @book.Author
+                <br />
+                <strong>Published:</strong>
+                @book.Published
+                <br />
+                <strong>Publisher:</strong>
+                @book.Publisher
+                <br />
+                <strong>ISBN:</strong>
+                @book.ISBN
+                <br />
+                <strong>Price:</strong>
+                @book.Price
+            </li>
+        }
     </ol>
-</p>
+</div>
 
 

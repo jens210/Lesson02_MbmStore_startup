@@ -6,6 +6,16 @@
 @using MbmStore.Models;
 
 <h2>Invoices</h2>
+
+<form method="post" asp-controller="Invoice" asp-action="index">
+    <div>
+        <select name="customer" id="customer"
+                asp-items="@ViewBag.Customers as List<SelectListItem>">
+        </select>
+        <button type="submit">Show invoices</button>
+    </div>
+</form>
+
 <p>
     @foreach (Invoice invoice in ViewBag.Invoices)
     {
@@ -17,8 +27,8 @@
         <strong> Customer data:</strong>
         <ul>
             <li>
-                @invoice.Customer.firstnavn 
-                @invoice.Customer.lastnavn
+                @invoice.Customer.Firstnavn
+                @invoice.Customer.Lastnavn
             </li>
         </ul>
         <strong>Order details</strong>
