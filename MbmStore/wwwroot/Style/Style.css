@@ -1,0 +1,36 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace MbmStore.wwwroot.Style
+{
+    public class Style
+    {
+  
+    }
+}
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 250px;
+    height: auto;
+}
+section {
+    text-align: center;
+}
+
+#flex{
+    display: inline-flex;
+}
+
+#container{
+    padding: 2.5vw;
+    text-align: left;
+}
+
+ul li {
+    list-style: none;
+}

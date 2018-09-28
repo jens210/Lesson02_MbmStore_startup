@@ -14,10 +14,11 @@ namespace MbmStore.Models
         public string City { get; set; }
         public string Phonenumber { get; }
         public List<string> PhoneNumbers { get; } = new List<string>();
+        public List<Invoice> Invoices = new List<Invoice>();
         public int CustomerID { get; set; }
         private DateTime birthDate;
         private int age;
-        public List<Invoice> Invoices = new List<Invoice>();
+   
 
         public int Age
         {

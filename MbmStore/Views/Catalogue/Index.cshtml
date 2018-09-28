@@ -5,14 +5,59 @@
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @using MbmStore.Models;
 
-<h2>Catalogue</h2>
+<h1>Catalogue</h1>
+<section>
+    <div id="flex">
+        <div id="container">
+            <h3>Movies</h3>
+            @foreach (Movie movie in ViewBag.Movies)
+            {
+                <br />
+                <img src="@movie.ImageURL" alt="Movie" />
+                <br />
+                <strong>Title:</strong>
+                @movie.Title
+                <br />
+                <strong>Director:</strong>
+                @movie.Director
+                <br />
+                <strong>Price:</strong>
+                @movie.Price
+            }
+        </div>
+        <div id="container">
+            <h3>Books</h3>
+            @foreach (Book book in ViewBag.Books)
+            {
+                <br />
+                <img src="@book.ImageURL" alt="Book" />
+                <br />
+                <strong>Title:</strong>
+                @book.Title
+                <br />
+                <strong>Author:</strong>
+                @book.Author
+                <br />
+                <strong>Published:</strong>
+                @book.Published
+                <br />
+                <strong>Publisher:</strong>
+                @book.Publisher
+                <br />
+                <strong>ISBN:</strong>
+                @book.ISBN
+                <br />
+                <strong>Price:</strong>
+                @book.Price
+                <br />
+            }
+        </div>
 
-<h3>Music</h3>
-<div>
-    <ol>
-        @foreach (var cd in ViewBag.CDS)
-        {
-            <li>
+        <div id="container">
+            <h3>Music</h3>
+            @foreach (var cd in ViewBag.CDS)
+            {
+                <br />
                 <img src="@cd.ImageURL" alt="CD" />
                 <br />
                 <strong>Title</strong>
@@ -38,55 +83,7 @@
                 <strong>Total playing time</strong>
                 @cd.GetPlayingTime()
                 <br />
-            </li>
-        }
-    </ol>
-
-    <h3>Movies</h3>
-    <ol>
-        @foreach (Movie movie in ViewBag.Movies)
-        {
-            <li>
-                <img src="@movie.ImageURL" alt="Movie" />
-                <br />
-                <strong>Title:</strong>
-                @movie.Title
-                <br />
-                <strong>Director:</strong>
-                @movie.Director
-                <br />
-                <strong>Price:</strong>
-                @movie.Price
-            </li>
-        }
-    </ol>
-    <h3>Books</h3>
-    <ol>
-        @foreach (Book book in ViewBag.Books)
-        {
-            <li>
-                <img src="@book.ImageURL" alt="Book" />
-                <br />
-                <strong>Title:</strong>
-                @book.Title
-                <br />
-                <strong>Author:</strong>
-                @book.Author
-                <br />
-                <strong>Published:</strong>
-                @book.Published
-                <br />
-                <strong>Publisher:</strong>
-                @book.Publisher
-                <br />
-                <strong>ISBN:</strong>
-                @book.ISBN
-                <br />
-                <strong>Price:</strong>
-                @book.Price
-            </li>
-        }
-    </ol>
-</div>
-
-
+            }
+        </div>
+    </div>
+</section>
