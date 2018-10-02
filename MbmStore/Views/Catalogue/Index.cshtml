@@ -1,16 +1,17 @@
-﻿@{
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<!--Strongly typed View-->
+@using MbmStore.Models;
+@model IEnumerable<Product>
+@{
     ViewData["Title"] = "Catalogue";
 }
 
-@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
-@using MbmStore.Models;
 
-<h1>Catalogue</h1>
 <section>
     <div id="flex">
         <div id="container">
             <h3>Movies</h3>
-            @foreach (Movie movie in ViewBag.Movies)
+            @foreach (Movie movie in Model.OfType<Movie>().ToList())
             {
                 <br />
                 <img src="@movie.ImageURL" alt="Movie" />
@@ -27,7 +28,7 @@
         </div>
         <div id="container">
             <h3>Books</h3>
-            @foreach (Book book in ViewBag.Books)
+            @foreach (Book book in Model.OfType<Book>().ToList())
             {
                 <br />
                 <img src="@book.ImageURL" alt="Book" />
@@ -55,7 +56,7 @@
 
         <div id="container">
             <h3>Music</h3>
-            @foreach (var cd in ViewBag.CDS)
+            @foreach (var cd in Model.OfType<MusicCD>().ToList())
             {
                 <br />
                 <img src="@cd.ImageURL" alt="CD" />

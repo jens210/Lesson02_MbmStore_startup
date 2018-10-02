@@ -40,11 +40,12 @@ namespace MbmStore.Models
         }
 
         // Nedarver title, price og imageUrl fra base klassen "Product".
-        public Movie(string title, decimal price, string imageUrl, string director) : base (title, price, imageUrl)
+        public Movie(string title, decimal price, string imageUrl, string director, int productID) : base (title, price, imageUrl, productID)
         {
             this.director = director;
             Title = title;
             Price = price;
+            ProductID = productID;
         }
     }
 }

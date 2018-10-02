@@ -18,7 +18,8 @@ namespace MbmStore.Models
 
         }
 
-        public Book(string author, string title, decimal price, short published, string publisher, string isbn, string imageURL)
+        public Book(string author, string title, decimal price, short published, string publisher, string isbn, 
+            string imageURL, int productID) : base(title, price, imageURL, productID)
         {
             Author = author;
             Title = title;
@@ -27,6 +28,7 @@ namespace MbmStore.Models
             Publisher = publisher;
             ISBN = isbn;
             ImageURL = imageURL;
+            ProductID = productID;
         }
     }
 }

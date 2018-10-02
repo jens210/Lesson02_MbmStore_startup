@@ -12,19 +12,8 @@ namespace MbmStore.Controllers
     {
         public IActionResult Index()
         {
-            IList<Book> books = new List<Book>();
-            IList<MusicCD> cds = new List<MusicCD>();
-            IList<Movie> movies = new List<Movie>();
-
-            books = Repository.Products.OfType<Book>().ToList();
-            cds = Repository.Products.OfType<MusicCD>().ToList();
-            movies = Repository.Products.OfType<Movie>().ToList();
-
-            ViewBag.Books = books;
-            ViewBag.CDS = cds;          
-            ViewBag.Movies = movies;
-            ViewBag.Products = Repository.Products;
-            return View();
+            // send a list of products to the view.
+            return View(Repository.Products);
         }
     }
 }
