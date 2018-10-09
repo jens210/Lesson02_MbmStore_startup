@@ -13,9 +13,11 @@ namespace MbmStore.Controllers
         {
 
             // create a new Movie object with instance name jungleBook
-            Movie jungleBook = new Movie("Jungle Book", 160.50m, "junglebook.jpg", "Hansi");
-            Movie forrestGump = new Movie("Forrest Gump", 170m, "forrest-gump.jpg", "Yesman");
-            Movie gladiator = new Movie("Gladiator", 175m, "gladiator.jpg", "Dude");
+           
+            Movie jungleBook = new Movie("Jungle Book", 160.50m, "junglebook.jpg", "Hansi", 88);
+            Movie forrestGump = new Movie("Forrest Gump", 170m, "forrest-gump.jpg", "Yesman", 99);
+            Movie gladiator = new Movie("Gladiator", 175m, "gladiator.jpg", "Dude", 100);
+            
             // assign a viewbag property to the new Movie object
             ViewBag.JungleBook = jungleBook;
             ViewBag.ForrestGump = forrestGump;

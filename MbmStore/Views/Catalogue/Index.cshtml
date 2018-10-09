@@ -1,11 +1,11 @@
 ﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 <!--Strongly typed View-->
 @using MbmStore.Models;
+@using MbmStore.Infrastructure;
 @model IEnumerable<Product>
 @{
     ViewData["Title"] = "Catalogue";
 }
-
 
 <section>
     <div id="flex">
@@ -24,6 +24,21 @@
                 <br />
                 <strong>Price:</strong>
                 @movie.Price
+
+                <div>
+                    <form id="@movie.ProductID" asp-action="AddToCart" asp-controller="Cart"
+                          method="post">
+                        <input type="hidden" name="ProductID" value="@movie.ProductID" />
+                        <input type="hidden" name="returnUrl"
+                               value="@ViewContext.HttpContext.Request.PathAndQuery()" />
+                        <span class="card-text p-1">
+                            <button type="submit"
+                                    class="btn btn-success btn-sm pull-right" style="float:right">
+                                Add To Cart
+                            </button>
+                        </span>
+                    </form>
+                </div>
             }
         </div>
         <div id="container">
@@ -51,6 +66,22 @@
                 <strong>Price:</strong>
                 @book.Price
                 <br />
+
+                <div>
+                    <form id="@book.ProductID" asp-action="AddToCart" asp-controller="Cart"
+                          method="post">
+                        <input type="hidden" name="ProductID" value="@book.ProductID" />
+                        <input type="hidden" name="returnUrl"
+                               value="@ViewContext.HttpContext.Request.PathAndQuery()" />
+                        <span class="card-text p-1">
+                            <button type="submit"
+                                    class="btn btn-success btn-sm pull-right" style="float:right">
+                                Add To Cart
+                            </button>
+                        </span>
+                    </form>
+                </div>
+
             }
         </div>
 
@@ -84,6 +115,20 @@
                 <strong>Total playing time</strong>
                 @cd.GetPlayingTime()
                 <br />
+                <div>
+                    <form id="@cd.ProductID" asp-action="AddToCart" asp-controller="Cart"
+                          method="post">
+                        <input type="hidden" name="ProductID" value="@cd.ProductID" />
+                        <input type="hidden" name="returnUrl"
+                               value="@ViewContext.HttpContext.Request.PathAndQuery()" />
+                        <span class="card-text p-1">
+                            <button type="submit"
+                                    class="btn btn-success btn-sm pull-right" style="float:right">
+                                Add To Cart
+                            </button>
+                        </span>
+                    </form>
+                </div>
             }
         </div>
     </div>

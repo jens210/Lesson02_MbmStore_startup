@@ -31,6 +31,7 @@ namespace MbmStore.Models.ViewModels
 
         public virtual void RemoveLine(Product product) =>
             lineCollection.RemoveAll(i => i.Product.ProductID == product.ProductID);
+        
         // Linq syntax, return the total price for all products in the cart
         public decimal ComputeTotalValue() =>
         lineCollection.Sum(e => e.Product.Price * e.Quantity);
