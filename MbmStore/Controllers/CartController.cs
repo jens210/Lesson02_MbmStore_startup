@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MbmStore.Models;
 using MbmStore.Infrastructure;
@@ -11,7 +12,6 @@ namespace MbmStore.Controllers
 {
     public class CartController : Controller
     {
-
         private Cart cart;
         public CartController(Cart cartService)
         {
@@ -26,7 +26,7 @@ namespace MbmStore.Controllers
                 ReturnUrl = returnUrl
             });
         }
-  
+
         public RedirectToActionResult AddToCart(int productId, string returnUrl)
         {
             Product product = Repository.Products
@@ -64,5 +64,7 @@ namespace MbmStore.Controllers
         {
             HttpContext.Session.SetJson("Cart", cart);
         }
+
+
     }
 }

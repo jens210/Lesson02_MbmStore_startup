@@ -1,0 +1,11 @@
+﻿@model MbmStore.Models.Movie
+@using MbmStore.Models;
+<div class="row">
+    <div class="col-md-4">
+        <img src="@Model.ImageURL" alt="@Model.Title" />
+        <strong>Title:</strong> @Model.Title<br />
+        <strong>Director:</strong> @Model.Director<br />
+        <strong>Price:</strong> @Model.Price<br />
+    </div>
+</div>
+@await Html.PartialAsync("_AddToCartButton", (Product)Model)

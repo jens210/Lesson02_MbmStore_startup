@@ -17,7 +17,7 @@ namespace MbmStore.Infrastructure
             Book book2 = new Book("Arthur C. Clarke", "Childhood's End", 122.5m, 1953, "Ballantine Books", "21322240", "https://upload.wikimedia.org/wikipedia/en/7/72/ChildhoodsEnd%281stEd%29.jpg", 2);
              
             MusicCD cd = new MusicCD("Christian Löffler", "Mare", 73.5m, 2016, "https://img.discogs.com/N0Nzh3PCaPnHvDD66y8ZOJmcYh8=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-9199362-1476532535-7378.jpeg.jpg", 3);
-            MusicCD cd2 = new MusicCD("Deadmau5", "4x4=12", 74.5m, 2010, "https://imagescdn.junodownload.com/150/CS2759107-02A.jpg", 4);
+            MusicCD cd2 = new MusicCD("Deadmau5", "4x4=12", 74.5m, 2010, "https://morphuk.com/wp-content/uploads/2018/03/Deadmau5-02.jpg", 4);
             Track track1 = new Track("Myiami", "Christian Löffler", new TimeSpan(0, 4, 38));
             Track track2 = new Track("Haul", "Christian Löffler", new TimeSpan(0, 5, 30));
             Track track3 = new Track("Mosaics", "Christian Löffler", new TimeSpan(0, 4, 22));

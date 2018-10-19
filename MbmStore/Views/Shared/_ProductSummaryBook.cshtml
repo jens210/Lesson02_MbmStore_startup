@@ -1,0 +1,14 @@
+﻿@model MbmStore.Models.Book
+@using MbmStore.Models;
+<div class="row">
+    <div class="col-md-4">
+        <img src="@Model.ImageURL" alt="@Model.Title" />
+        <strong>Title:</strong> @Model.Title<br />
+        <strong>Author:</strong> @Model.Author<br />
+        <strong>Price:</strong> @Model.Price<br />
+        <strong>Publisher:</strong> @Model.Publisher (@Model.Published)<br />
+        <strong>ISBN:</strong> @Model.ISBN<br /> <br />
+    </div>
+
+</div>
+@await Html.PartialAsync("_AddToCartButton", (Product)Model)

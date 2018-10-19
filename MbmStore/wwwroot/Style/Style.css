@@ -45,8 +45,8 @@ header a:hover {
 }
 
 img {
-    width: 250px;
-    height: auto;
+    width: auto;
+    height: 300px;
 }
 section {
     text-align: center;
