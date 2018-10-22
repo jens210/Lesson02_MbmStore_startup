@@ -1,14 +1,18 @@
 ﻿@model MbmStore.Models.Book
 @using MbmStore.Models;
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-2">
         <img src="@Model.ImageURL" alt="@Model.Title" />
+    </div>
+    <div class="col-md-4">
+
         <strong>Title:</strong> @Model.Title<br />
         <strong>Author:</strong> @Model.Author<br />
         <strong>Price:</strong> @Model.Price<br />
         <strong>Publisher:</strong> @Model.Publisher (@Model.Published)<br />
-        <strong>ISBN:</strong> @Model.ISBN<br /> <br />
+        <strong>ISBN:</strong> @Model.ISBN<br />
     </div>
-
+    <div class="col-md-6">
+        @await Html.PartialAsync("_AddToCartButton", (Product)Model)
+    </div>
 </div>
-@await Html.PartialAsync("_AddToCartButton", (Product)Model)

@@ -2,78 +2,50 @@
 @using MbmStore.Models;
 @using MbmStore.Infrastructure;
 <!--Strongly typed View-->
-@model IEnumerable<Product>
 @{
     ViewData["Title"] = "Catalogue";
 }
-
+@model ProductsListViewModel
 <section>
-    <div id="flex">
-        <div id="container">
+    @if (Model.Products.OfType<Movie>().ToList().Count > 0)
+    {
+        <div id="products">
             <h3>Movies</h3>
-            @foreach (Movie movie in Model.OfType<Movie>().ToList())
+            @foreach (Movie movie in Model.Products.OfType<Movie>().ToList())
             {
+                // Kalder Partial View
                 @await Html.PartialAsync("_ProductSummaryMovie", movie)
-
             }
         </div>
-        <div id="container">
+    }
+
+    @if (Model.Products.OfType<Book>().ToList().Count > 0)
+    {
+        <div id="products">
             <h3>Books</h3>
-            @foreach (Book book in Model.OfType<Book>().ToList())
+            @foreach (Book book in Model.Products.OfType<Book>().ToList())
             {
                 // Kalder Partial View
                 @await Html.PartialAsync("_ProductSummaryBook", book)
             }
         </div>
+    }
 
-        <div id="container">
+    @if (Model.Products.OfType<MusicCD>().ToList().Count > 0)
+    {
+        <div id="products">
             <h3>Music</h3>
-            @foreach (var cd in Model.OfType<MusicCD>().ToList())
+            @foreach (MusicCD cd in Model.Products.OfType<MusicCD>().ToList())
             {
+                // Kalder Partial View
                 @await Html.PartialAsync("_ProductSummaryMusicCD", cd)
-                /*
-                <br />
-                <img src="@cd.ImageURL" alt="CD" />
-                <br />
-                <strong>Title</strong>
-                @cd.Title
-                <br />
-                <strong>Artist:</strong>
-                @cd.Artist
-                <br />
-                <strong>Price:</strong>
-                @cd.Price
-                <br />
-                <strong> Tracks: </strong>
-                <ol>
-                    @foreach (Track track in cd.Tracks)
-                    {
-                        <li>
-                            @track.Title
-                            (@track.Composer)
-                            @track.Length.Minutes:@track.Length.Seconds
-                        </li>
-                    }
-                </ol>
-                <strong>Total playing time</strong>
-                @cd.GetPlayingTime()
-                <br />
-                <div>
-                    <form id="@cd.ProductID" asp-action="AddToCart" asp-controller="Cart"
-                          method="post">
-                        <input type="hidden" name="ProductID" value="@cd.ProductID" />
-                        <input type="hidden" name="returnUrl"
-                               value="@ViewContext.HttpContext.Request.PathAndQuery()" />
-                        <span class="card-text p-1">
-                            <button type="submit"
-                                    class="btn btn-success btn-sm pull-right" style="float:right">
-                                Add To Cart
-                            </button>
-                        </span>
-                    </form>
-                </div>*/
-
             }
         </div>
+    }
+
+    <div page-model="@Model.PagingInfo" page-action="Index" page-classes-enabled="true"
+         page-class="btn" page-class-normal="btn-secondary"
+         page-class-selected="btn-primary" page-url-category="@Model.CurrentCategory"
+         class="btn-group pull-right m-1">
     </div>
 </section>

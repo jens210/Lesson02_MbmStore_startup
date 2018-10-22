@@ -1,25 +1,29 @@
 ﻿@model MbmStore.Models.MusicCD
 @using MbmStore.Models;
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-2">
         <img src="@Model.ImageURL" alt="@Model.Title" />
+    </div>
+    <div class="col-md-4">
         <strong>Title:</strong> @Model.Title<br />
-        <strong>Tracks:</strong>
-        <div id="container">
-            <ol>
-                @foreach (Track track in Model.Tracks)
-                {
-                    <li>
-                        @track.Title
-                        (@track.Composer)
-                        @track.Length.Minutes:@track.Length.Seconds
-                    </li>
-                }
-            </ol>
-        </div>
-        <strong>Playing time:</strong> @Model.GetPlayingTime()<br />
-        <strong>Price:</strong> @Model.Price
-        <br />
+        <strong>Tracks:</strong> <br />
+        <strong>Price:</strong> @Model.Price <br />
+        <strong>Playing time:</strong> @Model.GetPlayingTime()
+        <ol>
+            @foreach (Track track in Model.Tracks)
+            {
+                <li>
+                    @track.Title
+                    (@track.Composer)
+                    @track.Length.Minutes:@track.Length.Seconds
+                </li>
+            }
+        </ol>
+    </div>
+    <div class="col-md-6">
+        @await Html.PartialAsync("_AddToCartButton", (Product)Model)
     </div>
 </div>
-@await Html.PartialAsync("_AddToCartButton", (Product)Model)
+
+
+
